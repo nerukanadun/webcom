@@ -46,10 +46,10 @@
 	<tr>
 	   <th>Name</th>
 	   <th>Venue</th>
-	   <th>Start date</th>
-	   <th>End date</th>
+	   <th>Start Date</th>
+	   <th>End Date</th>
 	   <th>Deadline</th>
-	   <th>Sposer details</th>
+	   <th>Sposer Details</th>
 	   <th>Action</th>
 
 
@@ -68,7 +68,7 @@
 	if (isset($_GET['del'])) {
 	$id = $_GET['del'];
 	mysqli_query($db, "DELETE FROM info WHERE id=$id");
-	$_SESSION['message'] = "Conference deleted!"; 
+	$_SESSION['message'] = "Conference deleted!!"; 
 	header('location: conference_view.php');
 }
 
