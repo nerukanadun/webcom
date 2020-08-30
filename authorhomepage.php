@@ -25,7 +25,7 @@
 	<form class="myform" action="authorhomepage.php"method="post" enctype="multipart/form-data" >
 		<div id="main-wrapper">
 		<center>
-			<h2>Author Home Page</h2>
+			<h2>Author's Home Page</h2>
 			<img id="uploadPreview" src="imgs/avatar.png" class="avatar"/><br>
 			<input type="file" id="imglink" name="imglink" accept="application/pdf" onchange="PreviewImage();"/>
 		</center>
