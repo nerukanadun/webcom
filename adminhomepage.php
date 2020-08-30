@@ -11,7 +11,7 @@
 	
 	<div id="main-wrapper">
 		<center>
-			<h2>Admin Home Page</h2>
+			<h2>Admin's Home Page</h2>
 			<h3>Welcome
 				
 			</h3>
