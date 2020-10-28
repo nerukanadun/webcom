@@ -28,7 +28,7 @@
 
    }
    tr {
-	   border-bottom: 5px solid #ddd;
+	   border-bottom: 5px solid #ddd;  
        height:50px;
    }
    tr:hover {background-color: #f5f5f5;}
